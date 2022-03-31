@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: evertonfmateus/rotten-potatoes:v1
+        image: evertonfmateus/rotten-potatoes:v2
         #imagePullPolice: ifNotPresent  
         ports:
         - containerPort: 5000
