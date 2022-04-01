@@ -27,5 +27,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            evertonfm/rotten-potatoes:latest
-            evertonfm/rotten-potatoes:${{ github.run_number }}
+            evertonfmateus/rotten-potatoes:latest
+            evertonfmateus/rotten-potatoes:${{ github.run_number }}
